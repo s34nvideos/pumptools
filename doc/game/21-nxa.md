@@ -58,7 +58,7 @@ Total of 10 barriers to unlock. IDs denote game internal identifiers for each ba
 * Yellow (Barrier ID 7)
   * Clear (nearly) all missions in Ladania
   * Mission step IDs: EF450 (Beat the Step / Ladania) to EF464 (Devil Castle / Ladania) without EF458 (NXSB / Ladania)
-* Dark Green (Barrier ID 5)
+* Red (Barrier ID 5)
   * Clear (nearly) all missions "on earth" which includes missions of the lands Caelum, Luman Ocean, Ladania, Pandonus and Arowahi
   * Mission step IDs: EF400 (Arriving / Caelum) to EF487 (More-Powerful 2 / Arowahi) without EF432 (* Yasangma 2-2 / Luman Ocean)
 * ??? (Barrier ID 10)
@@ -69,7 +69,7 @@ Total of 10 barriers to unlock. IDs denote game internal identifiers for each ba
 * ??? (Barrier ID 13)
   * Clear She Likes D / Pandonus (EF440)
   * Clear Lighthouse / Arowahi (EF483)
-* ??? (Barrier ID 11)
+* Purple (Barrier ID 11)
   * Clear Wook! / Arowahi (EF466)
   * Clear Turn Turn Turn! / Pandonus (EF445)
   * Total world max clear percentage > ~61% (the math in the code is super weird resulting in a non-rounded floating point value)
@@ -88,7 +88,8 @@ Total of 10 barriers to unlock. IDs denote game internal identifiers for each ba
 * ??? (Barrier ID 12)
   * Either have it already unlocked + some unknown condition
   * Or get more than 19% on World Max
-* ??? (Barrier ID 9)
+* Cyan (Barrier ID 9)
   * Accumulated clear percentages (see profile overview on USB load) of World Max, Arcade Station,
-    Brain Shower and Special Zone >= 40%
-  * Which means that achieving >= 40% on one station alone, e.g. World Max, also works
+    Brain Shower and Special Zone >= 40%.
+  * NOTE: This barrier will ONLY break while in WorldMax mode. I.e. it won't break in Brain Shower for example. The easiest way is to clear a UFO attack mission and it'll break when you have the required percentage.
+  
